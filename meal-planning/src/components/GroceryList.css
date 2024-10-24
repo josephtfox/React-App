@@ -1,0 +1,45 @@
+.grocery-list {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.grocery-list h2 {
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.grocery-list table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.grocery-list th,
+.grocery-list td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.grocery-list th {
+  background-color: #4CAF50;
+  color: white;
+  font-weight: bold;
+}
+
+.grocery-list tr:last-child td {
+  border-bottom: none;
+}
+
+.grocery-list tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.grocery-list tr:hover {
+  background-color: #e9e9e9;
+}

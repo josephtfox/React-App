@@ -1,0 +1,56 @@
+.weekly-meal-plan {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .weekly-meal-plan h2 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .weekly-meal-plan table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+
+  }
+  
+  .weekly-meal-plan th,
+  .weekly-meal-plan td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .weekly-meal-plan th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .weekly-meal-plan tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .weekly-meal-plan tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .weekly-meal-plan input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .weekly-meal-plan input[type="text"]:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  }
